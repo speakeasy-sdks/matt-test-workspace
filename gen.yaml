@@ -1,0 +1,13 @@
+configVersion: 1.0.0
+generation:
+  telemetryEnabled: false
+  sdkClassName: SDK
+  sdkFlattening: false
+  singleTagPerOp: false
+go:
+  version: ""
+  packageName: testing
+typescript:
+  version: ""
+  author: matt-test-workspace
+  packageName: testing

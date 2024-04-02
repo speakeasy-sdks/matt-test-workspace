@@ -11,7 +11,7 @@ jobs:
     uses: speakeasy-api/sdk-generation-action/.github/workflows/sdk-generation.yaml@v14
     with:
       force: ${{ github.event.inputs.force }}
-      languages: |-
+      languages: |
         - go: go-client-sdk
         - typescript: typescript-client-sdk
       mode: pr
